@@ -1,0 +1,37 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: DEM_Compare - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP908F.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /I "..\Include" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/DEM_Compare.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"K:\Desktop\Dem_Proce\DEM_Compare\DEM_CompareDlg.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP908F.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP90A0.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"..\Bin\Release/DEM_Compare.pdb" /machine:I386 /out:"..\Bin\Release/DEM_Compare.exe" /libpath:"..\Lib" 
+.\Release\DEM_Compare.obj
+.\Release\DEM_CompareDlg.obj
+.\Release\StdAfx.obj
+.\Release\DEM_Compare.res
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP90A0.tmp"
+<h3>Output Window</h3>
+Compiling...
+DEM_CompareDlg.cpp
+K:\Desktop\Dem_Proce\DEM_Compare\DEM_CompareDlg.cpp(427) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+K:\Desktop\Dem_Proce\DEM_Compare\DEM_CompareDlg.cpp(428) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+Linking...
+
+
+
+<h3>Results</h3>
+DEM_Compare.exe - 0 error(s), 2 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,269 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\DEM_Compare.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\DEM_Compare.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 DEM_Compare"
+FONT 9, "宋体"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "DEM_Compare 1.0 版",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "版权所有 (C) 2002",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "确定",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_DEM_COMPARE_DIALOG DIALOGEX 0, 0, 484, 267
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "DEM_Compare"
+FONT 9, "宋体"
+BEGIN
+    EDITTEXT        IDC_EDIT_StdPath,14,23,383,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_CmpPath,14,78,383,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "标准DEM路径",IDC_BUTTON_STDDEM,400,24,70,14
+    PUSHBUTTON      "待比较DEM路径",IDC_BUTTON_CMPDEM,400,78,70,14
+    PUSHBUTTON      "输出结果报告",IDC_BUTTON_OK,400,230,70,14
+    GROUPBOX        "DEM输入",IDC_STATIC,6,10,472,118
+    EDITTEXT        IDC_EDIT_MAX,160,211,90,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_MIN,160,230,90,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_MEAN,308,212,89,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_MSE,308,230,89,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "获取所有参数",IDC_BUTTON_GETALL,400,212,70,14
+    LTEXT           "最大误差",IDC_STATIC,117,215,33,8
+    LTEXT           "最小误差",IDC_STATIC,117,232,33,8
+    LTEXT           "平均误差",IDC_STATIC,268,216,33,8
+    LTEXT           "均方误差",IDC_STATIC,268,231,33,8
+    LTEXT           "行数",IDC_STATIC,14,43,17,8
+    LTEXT           "列数",IDC_STATIC,14,58,17,8
+    LTEXT           "x方向格网间距",IDC_STATIC,100,43,53,8
+    LTEXT           "y方向格网间距",IDC_STATIC,100,57,53,8
+    LTEXT           "起始点x坐标",IDC_STATIC,258,42,45,8
+    LTEXT           "起始点y坐标",IDC_STATIC,258,57,45,8
+    EDITTEXT        IDC_EDIT_STDROW,40,40,46,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_STDCOL,40,56,46,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_STDDX,160,40,90,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_STDDY,160,56,90,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_STDSTAX,308,40,89,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_STDSTAY,308,56,89,14,ES_AUTOHSCROLL
+    LTEXT           "行数",IDC_STATIC,14,96,17,8
+    LTEXT           "列数",IDC_STATIC,14,111,17,8
+    LTEXT           "x方向格网间距",IDC_STATIC,100,95,53,8
+    LTEXT           "y方向格网间距",IDC_STATIC,100,110,53,8
+    LTEXT           "起始点x坐标",IDC_STATIC,258,96,45,8
+    LTEXT           "起始点y坐标",IDC_STATIC,258,110,45,8
+    EDITTEXT        IDC_EDIT_CMPROW,40,93,46,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_CMPCOL,40,108,46,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_CMPDX,160,93,90,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_CMPDY,160,109,90,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_CMPSTAX,308,93,89,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_CMPSTAY,308,109,89,14,ES_AUTOHSCROLL
+    GROUPBOX        "获取DEM交集范围",IDC_STATIC,6,137,472,46
+    LTEXT           "x坐标范围",IDC_STATIC,116,151,37,8
+    LTEXT           "y坐标范围",IDC_STATIC,116,166,37,8
+    EDITTEXT        IDC_EDIT_MINX,160,148,90,14,ES_AUTOHSCROLL
+    LTEXT           "—",IDC_STATIC,276,152,9,8
+    EDITTEXT        IDC_EDIT_MAXX,308,148,89,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_MINY,160,164,90,14,ES_AUTOHSCROLL
+    LTEXT           "—",IDC_STATIC,276,165,9,8
+    EDITTEXT        IDC_EDIT_MAXY,308,164,89,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "计算DEM交集范围",IDC_BUTTON_GETREG,400,165,70,14
+    GROUPBOX        "计算DEM比较参数",IDC_STATIC,6,199,472,49
+    LTEXT           "格网点数",IDC_STATIC,51,151,33,8
+    EDITTEXT        IDC_EDIT_GRIDNUM,40,163,46,14,ES_AUTOHSCROLL
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "DEM_Compare Microsoft 基础类应用程序\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "DEM_Compare\0"
+            VALUE "LegalCopyright", "版权所有 (C) 2002\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "DEM_Compare.EXE\0"
+            VALUE "ProductName", "DEM_Compare 应用程序\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_DEM_COMPARE_DIALOG, DIALOG
+    BEGIN
+        VERTGUIDE, 6
+        VERTGUIDE, 14
+        VERTGUIDE, 40
+        VERTGUIDE, 86
+        VERTGUIDE, 100
+        VERTGUIDE, 160
+        VERTGUIDE, 250
+        VERTGUIDE, 258
+        VERTGUIDE, 308
+        VERTGUIDE, 397
+        VERTGUIDE, 400
+        VERTGUIDE, 470
+        VERTGUIDE, 478
+        BOTTOMMARGIN, 249
+        HORZGUIDE, 56
+        HORZGUIDE, 70
+        HORZGUIDE, 92
+        HORZGUIDE, 107
+        HORZGUIDE, 123
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "关于 DEM_Compare(&A)..."
+END
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\DEM_Compare.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

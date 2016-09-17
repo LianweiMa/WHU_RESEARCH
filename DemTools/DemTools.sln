@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DemInfo", "DemInfo\DemInfo.vcxproj", "{55F72BFC-C895-489F-9AB7-E5712E252BD0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DemNoValueConvert", "DemNoValueConvert\DemNoValueConvert.vcxproj", "{4B31E301-46A2-49BB-87C7-A4E9AE77CB54}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DemClipEdge", "DemClipEdge\DemClipEdge.vcxproj", "{9141AD5C-9ACD-4003-8877-3BA3B932637F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DemMedianFilter", "DemMedianFilter\DemMedianFilter.vcxproj", "{2EFBEACB-DD14-4646-8E48-363ADC53367A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{55F72BFC-C895-489F-9AB7-E5712E252BD0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{55F72BFC-C895-489F-9AB7-E5712E252BD0}.Debug|Win32.Build.0 = Debug|Win32
+		{55F72BFC-C895-489F-9AB7-E5712E252BD0}.Release|Win32.ActiveCfg = Release|Win32
+		{55F72BFC-C895-489F-9AB7-E5712E252BD0}.Release|Win32.Build.0 = Release|Win32
+		{4B31E301-46A2-49BB-87C7-A4E9AE77CB54}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4B31E301-46A2-49BB-87C7-A4E9AE77CB54}.Debug|Win32.Build.0 = Debug|Win32
+		{4B31E301-46A2-49BB-87C7-A4E9AE77CB54}.Release|Win32.ActiveCfg = Release|Win32
+		{4B31E301-46A2-49BB-87C7-A4E9AE77CB54}.Release|Win32.Build.0 = Release|Win32
+		{9141AD5C-9ACD-4003-8877-3BA3B932637F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9141AD5C-9ACD-4003-8877-3BA3B932637F}.Debug|Win32.Build.0 = Debug|Win32
+		{9141AD5C-9ACD-4003-8877-3BA3B932637F}.Release|Win32.ActiveCfg = Release|Win32
+		{9141AD5C-9ACD-4003-8877-3BA3B932637F}.Release|Win32.Build.0 = Release|Win32
+		{2EFBEACB-DD14-4646-8E48-363ADC53367A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2EFBEACB-DD14-4646-8E48-363ADC53367A}.Debug|Win32.Build.0 = Debug|Win32
+		{2EFBEACB-DD14-4646-8E48-363ADC53367A}.Release|Win32.ActiveCfg = Release|Win32
+		{2EFBEACB-DD14-4646-8E48-363ADC53367A}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

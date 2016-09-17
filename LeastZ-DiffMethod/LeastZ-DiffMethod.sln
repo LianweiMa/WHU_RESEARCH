@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LeastZ-DiffMethod", "LeastZ-DiffMethod\LeastZ-DiffMethod.vcxproj", "{04C5A422-C8F2-4465-AC42-B3C81A66F681}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AccuracyAssessmentOfLZD", "AccuracyAssessmentOfLZD\AccuracyAssessmentOfLZD.vcxproj", "{EEF2286B-8EB9-4E03-9368-733A5880FFE6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{04C5A422-C8F2-4465-AC42-B3C81A66F681}.Debug|Win32.ActiveCfg = Debug|Win32
+		{04C5A422-C8F2-4465-AC42-B3C81A66F681}.Debug|Win32.Build.0 = Debug|Win32
+		{04C5A422-C8F2-4465-AC42-B3C81A66F681}.Release|Win32.ActiveCfg = Release|Win32
+		{04C5A422-C8F2-4465-AC42-B3C81A66F681}.Release|Win32.Build.0 = Release|Win32
+		{EEF2286B-8EB9-4E03-9368-733A5880FFE6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EEF2286B-8EB9-4E03-9368-733A5880FFE6}.Debug|Win32.Build.0 = Debug|Win32
+		{EEF2286B-8EB9-4E03-9368-733A5880FFE6}.Release|Win32.ActiveCfg = Release|Win32
+		{EEF2286B-8EB9-4E03-9368-733A5880FFE6}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SpatialSimilarityTransform", "SpatialSimilarityTransform\SpatialSimilarityTransform.vcxproj", "{CEC6C661-55F9-496A-88D0-384086D91039}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DemShiftTransform", "DemShiftTransform\DemShiftTransform.vcxproj", "{170C851E-A084-4EE8-A995-5EB98B536462}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CEC6C661-55F9-496A-88D0-384086D91039}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CEC6C661-55F9-496A-88D0-384086D91039}.Debug|Win32.Build.0 = Debug|Win32
+		{CEC6C661-55F9-496A-88D0-384086D91039}.Release|Win32.ActiveCfg = Release|Win32
+		{CEC6C661-55F9-496A-88D0-384086D91039}.Release|Win32.Build.0 = Release|Win32
+		{170C851E-A084-4EE8-A995-5EB98B536462}.Debug|Win32.ActiveCfg = Debug|Win32
+		{170C851E-A084-4EE8-A995-5EB98B536462}.Debug|Win32.Build.0 = Debug|Win32
+		{170C851E-A084-4EE8-A995-5EB98B536462}.Release|Win32.ActiveCfg = Release|Win32
+		{170C851E-A084-4EE8-A995-5EB98B536462}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
